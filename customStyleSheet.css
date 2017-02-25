@@ -1,0 +1,143 @@
+body {
+    font-family: helvetica;
+    color: #453A4A;
+    font-size: 11pt;
+    font-weight: lighter;
+}
+
+#header {
+    color: white;
+    background-image: linear-gradient(to right, #E2D4DC, #453A4A);
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+#header h1 {
+    letter-spacing: 2px;
+    font-size: 28pt;
+    margin-bottom: 4px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+#header h2 {
+    letter-spacing: 1px;
+    font-size: 12pt;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+    margin-top:0px;
+    font-size: 14pt;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li a {
+    color: #453A4A;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 12px;
+    border-top: solid #E2D4DC 2px;
+    padding-top: 2px
+}
+
+#navbar li a:hover {
+    color: #453A4A;
+    border-top: solid 2px;
+    padding-top: 2px;
+    text-decoration: none;
+}
+
+.pageHeading {
+    font-size: 28pt;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 44px;
+    padding: 10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #453A4A;
+}
+
+.pageBreak {
+    margin-top: 40px;
+    margin-bottom: 42px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #453A4A;
+}
+
+.pageIntroduction {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.customFooter {
+    font-size:14pt;
+    text-align: center;
+    background-image: linear-gradient(to right, #E2D4DC, #453A4A);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -10px;
+    color: #fff;
+}
+
+#cvTitle {
+    font-size:14pt;
+    text-align: center;
+    letter-spacing: 1pt;
+}
+
+.cvTitleSubText {
+    font-size:10pt;
+    text-align: center;
+}
+
+.cvText {
+    font-size:10pt;
+}
+
+.cvSectionBreak {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #646c7a;
+}
+
+.cvSectionHeading {
+    font-size:14pt;
+    letter-spacing: 1pt;
+}
+
+.cvSubHeading {
+    font-size: 11pt;
+}
+
+h3 {
+    font-size: 18pt;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
