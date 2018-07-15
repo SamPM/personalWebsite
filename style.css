@@ -1,0 +1,250 @@
+/* --------------- General --------------- */
+body {
+    font-family:'Maven Pro', helvetica, sans-serif;
+    color: #545454;
+    font-size: 20px;
+}
+
+.row {
+    margin-right: 0;
+}
+
+#container {
+    padding: 0px;
+}
+
+.keyword{
+    color: #e74c3c;
+}
+
+h1 {
+    font-family: 'Patua One', helvetica, sans-serif;
+    font-size: 56px;
+    color: #e8e9ea;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h2{
+    font-family: 'Patua One', helvetica, sans-serif;
+    font-weight: 100;
+    color: #34495e;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family: 'Maven Pro', helvetica, sans-serif;
+    font-weight: 100;
+    color: #e8e9ea;
+    font-size: 22px;
+}
+
+/* --------------- HEADER SECTION --------------- */
+#header {
+    background-color: #18212e;
+}
+
+#headline {
+    min-height: 300px;
+    padding: 20vh 15px 0;
+}
+
+#description {
+    min-height: 280px;
+}
+#description p {
+    padding: 15vh 15px 0;
+    color: #e8e9ea;
+}
+
+#scroll-indicator {
+    min-height: 60px;
+}
+#scroll-indicator img {
+    height: 40px;
+}
+@media (max-height: 500px) {
+    #scroll-indicator{
+        display: none;
+    }
+}
+
+
+/* --------------- JOURNEY SECTION --------------- */
+#journey {
+    background: linear-gradient(white, white, rgba(53, 74, 94, 0.1));
+}
+
+#journey-title {
+    padding-top: 30px;
+    min-height: 75px;
+}
+
+#journey-img-div {
+    min-height: 230px;
+}
+#journey-img {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 75vw;
+    max-width: 1200px;
+}
+#journey-step {
+
+}
+
+#journey-desc {
+    min-height: 150px;
+    padding: 0 15px;
+}
+#bio-para, #comp-para, #grad-para, #lond-para {
+    display: none;
+}
+
+#journey-bar {
+    padding-bottom: 30px;
+}
+.bar {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 1px;
+}
+.bar:disabled {
+    background-color: #34495e;
+}
+.bar:focus {
+    outline:0;
+}
+.bar:hover {
+    background-color: #34485d5c;
+    cursor: pointer;
+}
+
+
+/* --------------- TECHNOLOGIES SECTION --------------- */
+#technologies {
+    background-color: #18212e;
+    padding-top: 30px;
+}
+
+#technologies h2 {
+    color: #e8e9ea;
+    border-bottom: solid 2px #e74c3c;
+    padding-bottom: 5px;
+}
+
+#technologies p {
+    color: #e8e9ea;
+}
+
+#tech-info {
+    min-height: 400px;
+    padding-bottom: 30px;
+}
+
+#tech-left {
+    border-right: solid 2px #e74c3c;
+    margin-bottom: 30px;
+}
+
+.tech-skill {
+    margin-bottom: 40px;
+}
+
+.progress {
+    height: 12px;
+    background-color: #c5bab9;
+}
+
+.prog-bar {
+    background-color: #e74c3c;
+    background: linear-gradient(to right, #e74c3c, #e74c3cc7);
+    height: 100%;
+}
+
+
+/* --------------- CONTACT SECTION --------------- */
+#contact {
+    min-height: 200px;
+    padding-top: 30px;
+    background: linear-gradient(white, white, rgba(53, 74, 94, 0.1));
+}
+
+#contact h2 {
+    border-bottom: solid 2px #e74c3c;
+    padding-bottom: 5px;
+}
+
+#contact p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+
+/* --------------- SMALLER SCREEN STYLES --------------- */
+#journey-img-mob {
+    height: 200px;
+    padding-top: 10px;
+}
+
+@media (max-width: 991px) {
+    #tech-left {
+        width:83%;
+        border: none;
+    }
+    #tech-right {
+        width:83%;
+    }
+}
+
+@media (max-width: 800px) {
+    #journey-desc {
+        min-height: 180px;
+    }
+    #journey-img-div {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    #journey-desc {
+        min-height: 240px;
+    }
+    #journey-img-div {
+        min-height: 250px;
+    }
+    #technologies h2 {
+        margin: 0 10px 20px;
+        text-align: center;
+    }
+    #tech-left {
+        text-align: center;
+        width:100%;
+        padding: 0 30px;
+    }
+    #tech-right {
+        width:100%;
+        padding: 0 30px;
+    }
+    #contact h2 {
+        margin: 0 10px 20px;
+        text-align: center;
+    }
+    #contact p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    #journey-title {
+        min-height: 150px;
+    }
+    #journey-img-div {
+        min-height: 250px;
+    }
+    #journey-desc {
+        min-height: 280px;
+    }
+}
+
