@@ -39,15 +39,7 @@ function displayStep1(){
 
 function displayStep2(){
     //Display correct image
-    document.getElementById("journey-img-mob").classList.remove("d-md-none", "d-block");
-    document.getElementById("journey-img-mob").classList.add("d-none");
-    var img = document.getElementById("journey-img");
-    img.classList.remove("d-none", "d-md-block");
-    img.classList.add("d-block");
-    img.style.display ="block-center";
-    img.src = "bioIcon.png";
-    img.style.width = "180px";
-    img.style.padding = "15px 0px 30px";
+    displayJourneyImg("bioIcon.png");
     //Display correct paragraph
     hideParagraphs();
     var para = document.getElementById("bio-para");
@@ -60,16 +52,7 @@ function displayStep2(){
 
 function displayStep3(){
     //Display correct image
-    document.getElementById("journey-img-mob").classList.remove("d-md-none", "d-block");
-    document.getElementById("journey-img-mob").classList.add("d-none");
-    document.getElementById("journey-img-mob").display = "none";
-    var img = document.getElementById("journey-img");
-    img.classList.remove("d-none", "d-md-block");
-    img.classList.add("d-block");
-    img.style.display ="block-center";
-    img.src = "compSciIcon.png";
-    img.style.width = "180px";
-    img.style.padding = "15px 0px 30px";
+    displayJourneyImg("compSciIcon.png");
     //Display correct paragraph
     hideParagraphs();
     var para = document.getElementById("comp-para");
@@ -82,16 +65,7 @@ function displayStep3(){
 
 function displayStep4(){
     //Display correct image
-    document.getElementById("journey-img-mob").classList.remove("d-md-none", "d-block");
-    document.getElementById("journey-img-mob").classList.add("d-none");
-    document.getElementById("journey-img-mob").display = "none";
-    var img = document.getElementById("journey-img");
-    img.classList.remove("d-none", "d-md-block");
-    img.classList.add("d-block");
-    img.style.display ="block-center";
-    img.src = "graduation.png";
-    img.style.width = "180px";
-    img.style.padding = "15px 0px 30px";
+    displayJourneyImg("graduation.png");
     //Display correct paragraph
     hideParagraphs();
     var para = document.getElementById("grad-para");
@@ -104,16 +78,7 @@ function displayStep4(){
 
 function displayStep5(){
     //Display correct image
-    document.getElementById("journey-img-mob").classList.remove("d-md-none", "d-block");
-    document.getElementById("journey-img-mob").classList.add("d-none");
-    document.getElementById("journey-img-mob").display = "none";
-    var img = document.getElementById("journey-img");
-    img.classList.remove("d-none", "d-md-block");
-    img.classList.add("d-block");
-    img.style.display ="block-center";
-    img.src = "london.png";
-    img.style.width = "180px";
-    img.style.padding = "15px 0px 30px";
+    displayJourneyImg("london.png");
     //Display correct paragraph
     hideParagraphs();
     var para = document.getElementById("lond-para");
@@ -122,6 +87,19 @@ function displayStep5(){
     enableBars();
     var bar5 = document.getElementById("bar5");
     bar5.disabled = true;
+}
+
+function displayJourneyImg(imagePath) {
+    document.getElementById("journey-img-mob").classList.remove("d-md-none", "d-block");
+    document.getElementById("journey-img-mob").classList.add("d-none");
+    document.getElementById("journey-img-mob").display = "none";
+    var img = document.getElementById("journey-img");
+    img.classList.remove("d-none", "d-md-block");
+    img.classList.add("d-block");
+    img.style.display ="block-center";
+    img.src = imagePath;
+    img.style.width = "180px";
+    img.style.padding = "15px 0px 30px";
 }
 
 function enableBars(){
